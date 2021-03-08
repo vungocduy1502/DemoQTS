@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css" />
+  <link href="img/favicon.ico" rel="icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/b0fee60d9e.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <title>Test-DEMO</title>
+  <script>
+    $(function () {
+      $('button').click(function () {
+        $('.test02').slideToggle('slow');
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0"
+    nonce="MZSBRbA2"></script>
+  <!-- header  -->
+  <div class="header">
+    <div class="container">
+      <div class="nar">
+        <div class="logo">
+          <img src="/image/logo.png" alt="Logo">
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="phone">
+          <div class="icon_phone">
+            <i class="fa fa-phone-square fa-2x"></i>
+          </div>
+          <h4>Hỗ trợ khách hàng <br>
+            0965323888
+          </h4>
+        </div>
+        <div class="account">
+          <div class="icon_phone">
+            <i class="fa fa-user-o fa-2x"></i>
+          </div>
+          <h4> Tài khoản <br>
+            <a href="#">Đăng nhập</a>
+          </h4>
+        </div>
+        <div class="cart">
+          <i class="fa fa-cart-plus fa-2x"></i>
+          <span>Giỏ hàng</span>
+          <span class="user_style">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <!-- endow -->
+    <div class="endow">
+      <div class="endow-text"><i class="fa fa-bars fa-fa-lg"></i>
+        <h4>Danh sách sản phẩm</h4>
+      </div>
+      <div class="endow-text"><i class="fa fa-star fa-fa-lg"></i>
+        <h4>Sản phẩm chính hãng</h4>
+      </div>
+      <div class="endow-text"><i class="fa fa-bullhorn fa-fa-lg"></i>
+        <h4>Kiểm tra khi nhận hàng</h4>
+      </div>
+      <div class="endow-text"><i class="fa fa-heart-o fa-fa-lg"></i>
+        <h4>Hoàn tiền 111% nếu giả</h4>
+      </div>
+
+    </div>
+
+    <!-- menu -->
+    <div class="menu-cover">
+      <div class="menu">
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Điện thoại, máy tính bảng</a>
+        </div>
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Làm đẹp - Sức Khỏe</a>
+        </div>
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Đồ chơi, Mẹ và bé</a>
+        </div>
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Hàng tiêu dùng, thực phẩm</a>
+        </div>
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Điện tử- Điện lạnh</a>
+        </div>
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Thời trang, phụ kiện</a>
+        </div>
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Điện gia dụng</a>
+        </div>
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Thể thao, dã ngoại</a>
+        </div>
+        <div class="menu-text">
+          <div class="menu-icon"><img src="/image/icon5.jpg" alt=""></div><a href="#">Nhà cửa đời sống</a>
+        </div>
+      </div>
+      <div class="cover">
+        <img src="/image/ff5da3768c977fc92686.jpg" alt="">
+      </div>
+    </div>
+
+    <!-- hot products -->
+    <div class="hot-product">
+      <div class="product-small"><img src="/image/ff5da3768c977fc92686.jpg" alt=""></div>
+      <div class="product-small"><img src="/image/ff5da3768c977fc92686.jpg" alt=""></div>
+      <div class="product-small"><img src="/image/ff5da3768c977fc92686.jpg" alt=""></div>
+      <div class="product-small"><img src="/image/ff5da3768c977fc92686.jpg" alt=""></div>
+    </div>
+
+    <div class="all-product">
+      <div class="title">GIÁ SỐC HÔM NAY</div>
+      <div class="product">
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+      </div>
+      <button class="view-all">Xem tất cả ></button>
+    </div>
+
+    <div class="cosmetics">
+      <img src="/image/0da88082af635c3d0572.jpg" alt="cosmetics">
+    </div>
+
+    <div class="all-product">
+      <div class="title">DEAL CHỚP NHOÁNG</div>
+      <div class="product">
+
+
+        <div class="product-chil">
+          <div class="product-img-1"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img-1"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img-1"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img-1"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+      </div>
+      <button class="view-all">Xem tất cả ></button>
+
+    </div>
+
+    <div class="all-product">
+      <div class="title">SẢN PHẨM NỔI BẬT</div>
+      <div class="product">
+        <div class="product-like"><img src="/image/90e68bc9a42857760e39.jpg" alt=""></div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+      </div>
+      <button class="view-all">Xem tất cả ></button>
+    </div>
+
+    <div class="all-product">
+      <div class="title">SẢN PHẨM NỔI BẬT</div>
+      <div class="product">
+        <div class="product-like"><img src="/image/90e68bc9a42857760e39.jpg" alt=""></div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="all-product-1">
+      <div class="product">
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>9.490.000 đ</h2>
+            <h3>16.990.000 đ</h3>
+          </div>
+        </div>
+      </div>
+      <button class="view-all">Xem tất cả ></button>
+    </div>
+
+    <div class="hot-product">
+      <div class="product-small-2"><img src="/image/ff5da3768c977fc92686.jpg" alt=""></div>
+      <div class="product-small-2"><img src="/image/ff5da3768c977fc92686.jpg" alt=""></div>
+      <div class="product-small-2"><img src="/image/ff5da3768c977fc92686.jpg" alt=""></div>
+    </div>
+
+    <div class="all-product">
+      <div class="title">SẢN PHẨM KHUYẾN MẠI</div>
+      <div class="product">
+
+
+        <div class="product-chil">
+          <div class="product-img-1"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img-1"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img-1"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+
+        <div class="product-chil">
+          <div class="product-img-1"><img src="/image/mypham1.jpg" alt="my phẩm 1"></div>
+          <div class="chil-title">mỹ phẩm cao cấp dưỡng da trị nám vô cùng hiệu quả</div>
+          <div class="chil-price">
+            <h2>450.000 đ</h2>
+            <h3>550.000 đ</h3>
+          </div>
+        </div>
+      </div>
+      <button class="view-all">Xem tất cả ></button>
+    </div>
+
+    <!-- Latest news -->
+    <div class="all-product">
+      <div class="tintuc">
+        <div class="title">TIN TỨC MỚI NHẤT</div>
+        <div class="title"><a href="#">Xem tất cả >></a> </div>
+      </div>
+      <hr>
+
+      <div class="product">
+        <div class="product-new">
+          <div class="new-image"><img src="/image/03286e3641d7b289ebc6.jpg" alt=""></div>
+          <div class="new-title">Review Kem dưỡng da Olay có tốt như lời đồn? Giá chính hãng?</div>
+          <div class="new-time">Thứ Tư, 18/11/2020</div>
+          <div class="new-des">Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm,
+            làm trắng da, đặc biệt chống lại 7 dấu hiệu lão hóa da, kích thích sản sinh collagen,
+            làm tăng độ đàn hồi của da
+            <span id="dots">...</span>
+            <span id="more">Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm, làm trắng da,
+              đặc biệt chống lại 7 dấu hiệu lão hóa da,</span> <a onclick="myFunction()" id="myBtn">Đọc tiếp</a>
+          </div>
+        </div>
+        <div class="product-new-scroll">
+          <div class="product-new-chil">
+            <div class="product-new-chil-img"><img src="/image/c3a6c6b8e9591a074348.jpg" alt=""></div>
+            <div class="product-new-chil-title">
+              <h3>Review Kem dưỡng da Olay có tốt như lời đồn? Giá chính hãng?</h3>
+              <h5>Thứ Tư, 18/11/2020</h5>
+              <h4>Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm,
+                làm trắng da, đặc biệt chống lại 7 dấu hiệu lão hóa da, kích thích sản sinh collagen,
+                làm tăng độ đàn hồi của da
+                <span id="dots1">...</span>
+                <span id="more1">Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm, làm trắng da,
+                  đặc biệt chống lại 7 dấu hiệu lão hóa da,</span> <a onclick="myFunction1()" id="myBtn1">Đọc tiếp</a>
+              </h4>
+            </div>
+          </div>
+          <div class="product-new-chil">
+            <div class="product-new-chil-img"><img src="/image/c3a6c6b8e9591a074348.jpg" alt=""></div>
+            <div class="product-new-chil-title">
+              <h3>Review Kem dưỡng da Olay có tốt như lời đồn? Giá chính hãng?</h3>
+              <h5>Thứ Tư, 18/11/2020</h5>
+              <h4>Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm,
+                làm trắng da, đặc biệt chống lại 7 dấu hiệu lão hóa da, kích thích sản sinh collagen,
+                làm tăng độ đàn hồi của da
+                <span id="dots">...</span>
+                <span id="more">Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm, làm trắng da,
+                  đặc biệt chống lại 7 dấu hiệu lão hóa da,</span> <a onclick="myFunction()" id="myBtn">Đọc tiếp</a>
+              </h4>
+            </div>
+          </div>
+          <div class="product-new-chil">
+            <div class="product-new-chil-img"><img src="/image/c3a6c6b8e9591a074348.jpg" alt=""></div>
+            <div class="product-new-chil-title">
+              <h3>Review Kem dưỡng da Olay có tốt như lời đồn? Giá chính hãng?</h3>
+              <h5>Thứ Tư, 18/11/2020</h5>
+              <h4>Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm,
+                làm trắng da, đặc biệt chống lại 7 dấu hiệu lão hóa da, kích thích sản sinh collagen,
+                làm tăng độ đàn hồi của da
+                <span id="dots">...</span>
+                <span id="more">Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm, làm trắng da,
+                  đặc biệt chống lại 7 dấu hiệu lão hóa da,</span> <a onclick="myFunction()" id="myBtn">Đọc tiếp</a>
+              </h4>
+            </div>
+          </div>
+          <div class="product-new-chil">
+            <div class="product-new-chil-img"><img src="/image/c3a6c6b8e9591a074348.jpg" alt=""></div>
+            <div class="product-new-chil-title">
+              <h3>Review Kem dưỡng da Olay có tốt như lời đồn? Giá chính hãng?</h3>
+              <h5>Thứ Tư, 18/11/2020</h5>
+              <h4>Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm,
+                làm trắng da, đặc biệt chống lại 7 dấu hiệu lão hóa da, kích thích sản sinh collagen,
+                làm tăng độ đàn hồi của da
+                <span id="dots">...</span>
+                <span id="more">Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm, làm trắng da,
+                  đặc biệt chống lại 7 dấu hiệu lão hóa da,</span> <a onclick="myFunction()" id="myBtn">Đọc tiếp</a>
+              </h4>
+            </div>
+          </div>
+          <div class="product-new-chil">
+            <div class="product-new-chil-img"><img src="/image/c3a6c6b8e9591a074348.jpg" alt=""></div>
+            <div class="product-new-chil-title">
+              <h3>Review Kem dưỡng da Olay có tốt như lời đồn? Giá chính hãng?</h3>
+              <h5>Thứ Tư, 18/11/2020</h5>
+              <h4>Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm,
+                làm trắng da, đặc biệt chống lại 7 dấu hiệu lão hóa da, kích thích sản sinh collagen,
+                làm tăng độ đàn hồi của da
+                <span id="dots">...</span>
+                <span id="more">Các loại kem dưỡng da Olay nổi tiếng về dưỡng ẩm, làm trắng da,
+                  đặc biệt chống lại 7 dấu hiệu lão hóa da,</span> <a onclick="myFunction()" id="myBtn">Đọc tiếp</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="register">
+    <div class="register-title">
+      <h4>ĐĂNG KÝ NHẬN TIN</h4>
+      <h5>Đăng ký tên đăng ký và nhận sản phẩm mới nhất, Giảm giá & đặc BIỆT!</h5>
+    </div>
+  </div>
+  <div class="register-form">
+    <div class="register-title__second">
+      <form action="">
+        <input type="text" class="input_email" placeholder="Nhập email tại đây...">
+        <button type="submit" class="btn_sub">Đăng kí</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="footer__guarantee">
+      <div class="guarantee_first">
+        <img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5.jpg" alt="">
+        <span>
+          Sản phẩm, hàng hóa <br>
+          Chính hãng đa dạng phong phú
+        </span>
+      </div>
+      <div class="guarantee_first">
+        <img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5 (1).jpg" alt="">
+        <span>
+          Luôn luôn giá rẻ & <br>
+          Khuyến mại không ngừng
+        </span>
+      </div>
+      <div class="guarantee_first">
+        <img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5 (2).jpg" alt="">
+        <span>
+          Dịch vụ <br>
+          Chăm sóc khách hàng uy tín
+        </span>
+      </div>
+      <div class="guarantee_first">
+        <img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5.png" alt="">
+        <span>
+          Tư vấn bán hàng <br>
+          19006788
+        </span>
+      </div>
+    </div>
+
+    <div class="footer__infomation">
+      <!--Block1-->
+      <div class="block">
+        <h4>Thông tin công ty</h4>
+        <a href="">Giới thiệu công ty</a>
+        <a href="">Hệ thống các siêu thị</a>
+        <a href="">Tuyển dụng</a>
+        <a href="">Liên hệ và góp ý</a>
+        <a href="" class="a_warning">Quy định thanh toán</a>
+      </div>
+      <!--Block1-->
+      <!--Block 2-->
+      <div class="block">
+        <h4>Hỗ trợ khách hàng</h4>
+        <a href="">Hướng dẫn mua hàng</a>
+        <a href="">Hướng dẫn mua trả góp</a>
+        <a href="">Chính sách bảo hành đổi trà</a>
+        <a href="">Giao hàng và lắp đặt</a>
+        <a href="">Chính sách bảo mật thông tin cá nhân</a>
+      </div>
+      <!--Block 2-->
+      <!--Block 3-->
+      <div class="block">
+        <h4>Tổng đài gọi hỗ trợ</h4>
+        <a href="">Bán hàng <strong>1900 6788 </strong> </a>
+        <a href="">Khiếu nại <strong>1900 6741 </strong> </a>
+        <a href="">Bảo hành <strong>1900 6743 </strong> </a>
+        <hr style="margin-bottom: 10px;">
+        <a href="">Kết nối với chúng tôi</a>
+        <div class="block_icon">
+          <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-twitter-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-google-plus-square fa-3x"></i></a>
+          <a href=""><i class="fab fa-youtube-square fa-3x"></i></a>
+        </div>
+      </div>
+      <!--Block 3-->
+      <!--Block 4-->
+      <div class="block">
+        <h4>Kết nối cộng đồng</h4>
+        <div class="fb-comment-embed"
+          data-href="https://www.facebook.com/khongsocho.official/posts/3113561442261529?comment_id=454653082403374&amp;reply_comment_id=1180349115751384&amp;notif_id=1614044096715572&amp;notif_t=comment_mention&amp;ref=notif"
+          data-width="300" data-include-parent="true"></div>
+      </div>
+      <!--Block 4-->
+    </div>
+    <div class="footer_atm">
+      <div class="block_atm">
+        <span>Chấp nhận thanh toán</span>
+      </div>
+      <div class="block_icon">
+        <a href=""><img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5 (5).png" alt=""></a>
+        <a href=""><img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5 (4).png" alt=""></a>
+        <a href=""><img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5 (3).png" alt=""></a>
+        <a href=""><img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5 (2).png" alt=""></a>
+        <a href=""><img src="./image/z2366297730178_28fdd1466c65bab3151d8ca1b415eab5 (1).png" alt=""></a>
+      </div>
+    </div>
+    <div class="footer_city">
+      <div class="block">
+        <span>TP.Hà Nội <span>(21) </span> </span>
+        <span>Hưng Yên <span>(4) </span> </span>
+        <span>Quảng Ninh <span>(6) </span></span>
+        <span>Yên Bái <span>(1)</span></span>
+      </div>
+      <div class="block">
+        <span>Bắc Giang <span>(1)</span></span>
+        <span>Lai Châu <span>(1)</span></span>
+        <span>Thái Bình<span>(1)</span></span>
+      </div>
+      <div class="block">
+        <span>Bắc Kạn <span>(1)</span></span>
+        <span>Lào Cai <span>(2)</span></span>
+        <span>Thái Nguyên<span>(5)</span></span>
+      </div>
+      <div class="block">
+        <span>Bắc Ninh <span>(3)</span></span>
+        <span>Nam Định <span>(2)</span></span>
+        <span>Thanh Hóa<span>(8)</span></span>
+      </div>
+      <div class="block">
+        <span>Hải Phòng <span>(4)</span></span>
+        <span>Nghệ An <span>(2)</span></span>
+        <span>Tuyên Quang<span>(1)</span></span>
+      </div>
+      <div class="block">
+        <span>Hải Dương <span>(4)</span></span>
+        <span>Phú Thọ <span>(3)</span></span>
+        <span>Vĩnh Phúc<span>(3)</span></span>
+      </div>
+    </div>
+    <div class="footer_detail">
+      <div class="detail">
+        <p>@ 2021 Công ty cổ phẩn MEDIAMART Việt Nam - ĐCĐK: 29F Hai Bà Trưng. GPĐKKD số: 0102516308 do Sở KHĐT Tp.Hà
+          Nội cấp ngày 15/11/2007
+          Email: Hỗ trợ@mediamart.com.vn Điện thoại: 024 3936 2099. Fax: 0243 933 0766
+          Website: mediamart.vn/thegioidienmay.com *Đơn vị tính x1000đ
+
+        </p>
+      </div>
+      <div>
+        <img src="./image/logo-da-thong-bao-website-voi-bo-cong-thuong.png" width="10%" alt="">
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+<script type="text/javascript" src="common.js"></script>
+
+
+</html>
